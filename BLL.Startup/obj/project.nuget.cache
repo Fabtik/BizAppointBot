@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w6pXghpGzJ1bqmxBVyNMBTZNBiqWO4bMApPUGQ6mPt7ZqdQTgFphPxZMzUWxnlOnJTgsm2yq156A7ogoAJ2zPA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\BLL.Startup.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nikdo\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\nikdo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

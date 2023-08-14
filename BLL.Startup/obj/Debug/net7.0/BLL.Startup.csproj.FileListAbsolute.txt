@@ -1,0 +1,15 @@
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\bin\Debug\net7.0\BLL.Startup.deps.json
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\bin\Debug\net7.0\BLL.Startup.dll
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\bin\Debug\net7.0\BLL.Startup.pdb
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\bin\Debug\net7.0\DAL.Startup.dll
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\bin\Debug\net7.0\DAL.Startup.pdb
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.csproj.AssemblyReference.cache
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.AssemblyInfoInputs.cache
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.AssemblyInfo.cs
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.csproj.CoreCompileInputs.cache
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.csproj.CopyComplete
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.dll
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\refint\BLL.Startup.dll
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\BLL.Startup.pdb
+D:\Projects\C# Projects\SanyaProject\BLL.Startup\obj\Debug\net7.0\ref\BLL.Startup.dll

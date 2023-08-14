@@ -1,0 +1,14 @@
+D:\Projects\C# Projects\SanyaProject\DAL\bin\Debug\net7.0\DAL.deps.json
+D:\Projects\C# Projects\SanyaProject\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+D:\Projects\C# Projects\SanyaProject\DAL\bin\Debug\net7.0\DAL.dll
+D:\Projects\C# Projects\SanyaProject\DAL\bin\Debug\net7.0\DAL.pdb
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.dll
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\refint\DAL.dll
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.pdb
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache
+D:\Projects\C# Projects\SanyaProject\DAL\obj\Debug\net7.0\ref\DAL.dll
