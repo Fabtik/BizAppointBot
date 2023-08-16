@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj": {}
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

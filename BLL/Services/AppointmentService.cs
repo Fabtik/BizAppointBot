@@ -20,20 +20,31 @@ namespace BLL.Services
             _appointmentRepository = appointmentRepository;
         }
 
-
-
-
+        public async Task<bool> TryToConfirmAppointment(int id)
+        {
+            return await _appointmentRepository.TryToConfirmAppointment(id);
+        }
 
         public async Task<int> CreateAsync(AppointmentRequest appointment)
         {
             var newAppointment = _mapper.Map<AppointmentEntity>(appointment);
 
-            return await _appointmentRepository.CreateAsync(newAppointment);
+            var newAppointmentTime = newAppointment.AppointedTime;
+
+            var existingAppointment = await _appointmentRepository.GetByAppointedTimeAsync(newAppointmentTime);
+
+            if (existingAppointment != null && existingAppointment.Confirmed == true) 
+            {
+                throw new Exception($"Appintment on time {newAppointmentTime} already exist");
+            }
+
+            return await _appointmentRepository.CreateAsync(newAppointment);           
         }
 
-        public async Task DeleteAsync(int id)
+
+        public async Task<bool> TryToDeleteAsync(int id)
         {
-            await _appointmentRepository.DeleteAsync(id);
+            return await _appointmentRepository.TryToDeleteAsync(id);
         }
 
         public async Task<List<AppointmentResponse>> GetAllAsync()

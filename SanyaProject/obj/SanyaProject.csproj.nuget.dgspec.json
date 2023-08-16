@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\C# Projects\\SanyaProject\\SanyaProject\\SanyaProject.csproj": {}
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\SanyaProject\\SanyaProject.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\BLL.Startup.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL.Startup\\BLL.Startup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\BLL.Startup.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL.Startup\\BLL.Startup.csproj",
         "projectName": "BLL.Startup",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\BLL.Startup.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL.Startup\\BLL.Startup.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL.Startup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,15 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj"
               }
             }
           }
@@ -70,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\C# Projects\\SanyaProject\\BLL\\BLL.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -96,15 +95,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj"
               }
             }
           }
@@ -140,18 +138,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -166,7 +164,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -206,18 +203,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj",
         "projectName": "DAL.Startup",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -232,7 +229,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -272,18 +268,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -298,7 +294,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -319,17 +314,17 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             }
           },
           "imports": [
@@ -348,18 +343,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projects\\C# Projects\\SanyaProject\\SanyaProject\\SanyaProject.csproj": {
+    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\SanyaProject\\SanyaProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\C# Projects\\SanyaProject\\SanyaProject\\SanyaProject.csproj",
+        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\SanyaProject\\SanyaProject.csproj",
         "projectName": "SanyaProject",
-        "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\SanyaProject\\SanyaProject.csproj",
+        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\SanyaProject\\SanyaProject.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\C# Projects\\SanyaProject\\SanyaProject\\obj\\",
+        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\SanyaProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -374,27 +369,26 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\BLL.Startup.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL.Startup\\BLL.Startup.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL.Startup\\BLL.Startup.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL.Startup\\BLL.Startup.csproj"
               },
-              "D:\\Projects\\C# Projects\\SanyaProject\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\BLL\\BLL.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\BLL.csproj"
               },
-              "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\Common\\Common.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj"
               },
-              "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL.Startup\\DAL.Startup.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj"
               },
-              "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\Projects\\C# Projects\\SanyaProject\\DAL\\DAL.csproj"
+              "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj"
               }
             }
           }
@@ -427,25 +421,25 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.4, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.9, )"
+              "version": "[7.0.10, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -467,7 +461,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

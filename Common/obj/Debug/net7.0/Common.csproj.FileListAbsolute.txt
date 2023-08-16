@@ -10,3 +10,15 @@ D:\Projects\C# Projects\SanyaProject\Common\obj\Debug\net7.0\Common.dll
 D:\Projects\C# Projects\SanyaProject\Common\obj\Debug\net7.0\refint\Common.dll
 D:\Projects\C# Projects\SanyaProject\Common\obj\Debug\net7.0\Common.pdb
 D:\Projects\C# Projects\SanyaProject\Common\obj\Debug\net7.0\ref\Common.dll
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\bin\Debug\net7.0\Common.deps.json
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\bin\Debug\net7.0\Common.dll
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\bin\Debug\net7.0\Common.pdb
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.csproj.AssemblyReference.cache
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.AssemblyInfoInputs.cache
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.AssemblyInfo.cs
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.dll
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\refint\Common.dll
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\Common.pdb
+C:\Users\nikdo\Desktop\Projects\C# Project\Common\obj\Debug\net7.0\ref\Common.dll
