@@ -59,6 +59,13 @@ namespace BLL.Services
                 (await _appointmentRepository.GetByIdAsync(id));
         }
 
+        public async Task<List<AppointmentResponse>> GetAppointmentsForDayAsync(DateTime day)
+        {
+            return _mapper.Map<List<AppointmentResponse>>
+                (await _appointmentRepository.GetAppointmentsForDayAsync(day));
+        }
+
+
         public async Task UpdateAsync(int id, AppointmentRequest appointment)
         {
             await _appointmentRepository.UpdateAsync

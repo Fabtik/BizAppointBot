@@ -98,5 +98,37 @@ namespace SanyaProject.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred.");
             }
         }
+
+        [HttpPatch("{id}")]
+        public async Task<IActionResult> UpdateAppointment(int id, AppointmentRequest request)
+        {
+            try
+            {
+                await _appointmentService.UpdateAsync(id, request);
+
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                // Log the exception or handle it as needed
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred.");
+            }
+        }
+
+
+        [HttpPut("ForDay")]
+        public async Task<IActionResult> GetGetAppointmentsForDay(DateTime day)
+        {
+            try
+            {
+                var appointments = await _appointmentService.GetAppointmentsForDayAsync(day);
+                return Ok(appointments);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred.");
+            }
+        }
+
     }
 }

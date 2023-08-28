@@ -7,6 +7,8 @@ namespace DAL.Repositories.Abstract
         public Task<AppointmentEntity> GetByIdAsync(int id);
         public Task<AppointmentEntity> GetByAppointedTimeAsync(DateTime time);
         public Task<List<AppointmentEntity>> GetAllAppointmentByTimeAsync(DateTime time);
+
+        public Task<List<AppointmentEntity>> GetAppointmentsForDayAsync(DateTime day);
         public Task<bool> TryToConfirmAppointment(int id);
         public Task<List<AppointmentEntity>> GetAllAsync();
         public Task<int> CreateAsync(AppointmentEntity appointment);

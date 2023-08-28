@@ -64,6 +64,16 @@ namespace DAL.Repositories
             return appointment;
         }
 
+        public async Task<List<AppointmentEntity>> GetAppointmentsForDayAsync(DateTime day)
+        {
+            DateTime startOfDay = day.Date;
+            DateTime endOfDay = day.Date.AddDays(1).AddTicks(-1);
+
+            return await _context.Appointments
+                .Where(a => a.AppointedTime >= startOfDay && a.AppointedTime <= endOfDay)
+                .ToListAsync();
+        }
+
         public async Task<AppointmentEntity> GetByIdAsync(int id)
         {
             var appointment = await _context.Appointments.FindAsync(id);
@@ -127,7 +137,7 @@ namespace DAL.Repositories
                 throw new Exception(message: $"Appointment with id = {id} doesn't exist");
             }
 
-            ReflectionHelper.CopyObjectPropertiesWithoutID(existingAppointment, appointment);
+            ReflectionHelper.CopyObjectPropertiesWithoutSpecified(existingAppointment, appointment, "ID", "CreatedDate");
 
             await _context.SaveChangesAsync();
         }
