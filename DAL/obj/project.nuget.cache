@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bAsB+btMjcNw0z7Y5q3fldxlAP8PFtEIaJkdZEWI7F20g5XBoIaHSPnrmkfhFBDJy9KmdMbT1FEhOhgaIgaE+A==",
+  "dgSpecHash": "uOfhcbImqJL8GFlQszQSa+Hjep16GTNymBvt7B0dvU/p6l2lnLgBv0kMm2J7FoM+eBFT1w162ov/L9BbWrElyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL\\DAL.csproj",
+  "projectFilePath": "D:\\Projects\\C# Projects\\BizAppointBot2.0\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikdo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\nikdo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

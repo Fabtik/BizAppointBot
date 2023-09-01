@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LQ0RWLjfIs9alBrpJJ/M3og6947BNH1+lzUceEHYc8QdKEiHRAEQd4sXTUx5ZMk1xFcY1+FhZNUdMlHV1qILzg==",
+  "dgSpecHash": "QhRwW7UcnkdJCahClrNNDBk2oU2sqmEbDn0xlAM0i4XPHeye7x676qpkz2fygiLxxczx++gn5NbF2hMiVXMoHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\BLL\\BLL.csproj",
+  "projectFilePath": "D:\\Projects\\C# Projects\\BizAppointBot2.0\\BLL\\BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikdo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\nikdo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

@@ -4,7 +4,6 @@ using BLL.Models.Responses;
 using BLL.Services.Abstract;
 using DAL.Entities;
 using DAL.Repositories.Abstract;
-using Microsoft.Extensions.Configuration;
 
 namespace BLL.Services
 {
@@ -20,10 +19,6 @@ namespace BLL.Services
             _appointmentRepository = appointmentRepository;
         }
 
-        public async Task<bool> TryToConfirmAppointment(int id)
-        {
-            return await _appointmentRepository.TryToConfirmAppointment(id);
-        }
 
         public async Task<int> CreateAsync(AppointmentRequest appointment)
         {
@@ -33,7 +28,7 @@ namespace BLL.Services
 
             var existingAppointment = await _appointmentRepository.GetByAppointedTimeAsync(newAppointmentTime);
 
-            if (existingAppointment != null && existingAppointment.Confirmed == true) 
+            if (existingAppointment != null) 
             {
                 throw new Exception($"Appintment on time {newAppointmentTime} already exist");
             }
@@ -41,6 +36,10 @@ namespace BLL.Services
             return await _appointmentRepository.CreateAsync(newAppointment);           
         }
 
+        public async Task<bool> TryToConfirmAppointment(int id)
+        {
+            return await _appointmentRepository.TryToConfirmAppointment(id);
+        }
 
         public async Task<bool> TryToDeleteAsync(int id)
         {
@@ -70,6 +69,29 @@ namespace BLL.Services
         {
             await _appointmentRepository.UpdateAsync
                 (id, _mapper.Map<AppointmentEntity>(appointment));
+        }
+
+        public async Task<bool> isExceedingLimit(DateTime time)
+        {
+            return await _appointmentRepository.isExceedingLimit(time);
+        }
+
+        public async Task<bool> HasConfirmedAppointmentsOnTime(DateTime time)
+        {
+            var appointments = await _appointmentRepository.GetAllAppointmentByTimeAsync(time);
+
+            bool hasConfirmed = false;
+
+            foreach(var appointment in appointments)
+            {
+                if(appointment.Confirmed == true)
+                {
+                    hasConfirmed = true;
+                    break;
+                }
+            }
+
+            return hasConfirmed;
         }
     }
 }

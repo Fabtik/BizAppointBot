@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj": {}
+    "D:\\Projects\\C# Projects\\BizAppointBot2.0\\DAL.Startup\\DAL.Startup.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj": {
+    "D:\\Projects\\C# Projects\\BizAppointBot2.0\\DAL.Startup\\DAL.Startup.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj",
+        "projectUniqueName": "D:\\Projects\\C# Projects\\BizAppointBot2.0\\DAL.Startup\\DAL.Startup.csproj",
         "projectName": "DAL.Startup",
-        "projectPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\DAL.Startup.csproj",
+        "projectPath": "D:\\Projects\\C# Projects\\BizAppointBot2.0\\DAL.Startup\\DAL.Startup.csproj",
         "packagesPath": "C:\\Users\\nikdo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\DAL.Startup\\obj\\",
+        "outputPath": "D:\\Projects\\C# Projects\\BizAppointBot2.0\\DAL.Startup\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -65,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

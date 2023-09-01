@@ -10,6 +10,8 @@ namespace BLL.Services.Abstract
         public Task<List<AppointmentResponse>> GetAllAsync();
         public Task<List<AppointmentResponse>> GetAppointmentsForDayAsync(DateTime day);
         public Task<int> CreateAsync(AppointmentRequest appointment);
+        public Task<bool> isExceedingLimit(DateTime time);
+        public Task<bool> HasConfirmedAppointmentsOnTime(DateTime time);
         public Task<bool> TryToConfirmAppointment(int id);
         public Task UpdateAsync(int id, AppointmentRequest appointment);
         public Task<bool> TryToDeleteAsync(int id);

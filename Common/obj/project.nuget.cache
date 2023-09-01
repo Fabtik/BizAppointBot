@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q/ObEH55juYQsOD4DSIckVWIShhRWUUMbsYW7us+izpSiZerAeMJiLgIk2kM/1/lL8g9TzhZDxfHECGefEe/wQ==",
+  "dgSpecHash": "1p6XogMGZCE8OizmsTu0biBrz4MjwhJD1dUp+VWc4oi4RmmNMBg6H6qJJCpiqkKB0AjJmHH5K/8DkUGjSHInkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikdo\\Desktop\\Projects\\C# Project\\Common\\Common.csproj",
+  "projectFilePath": "D:\\Projects\\C# Projects\\BizAppointBot2.0\\Common\\Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikdo\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
     "C:\\Users\\nikdo\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"

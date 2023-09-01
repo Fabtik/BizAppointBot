@@ -17,13 +17,19 @@ namespace DAL.Repositories
 
         public async Task<int> CreateAsync(AppointmentEntity appointment)
         {
-            appointment.Confirmed = false; // double check
+            if(await isExceedingLimit(appointment.AppointedTime))
+            {
+                appointment.Confirmed = false; // double check
 
-            var newUser = await _context.Appointments.AddAsync(appointment);
+                var newUser = await _context.Appointments.AddAsync(appointment);
 
-            await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();
 
-            return newUser.Entity.Id;
+                return newUser.Entity.Id;
+            }
+
+
+            throw new Exception($"Failed to create an appointment");
         }
 
         public async Task<bool> TryToDeleteAsync(int id)
@@ -42,6 +48,44 @@ namespace DAL.Repositories
             return true; // Deletion was successful
         }
 
+        public async Task<bool> TryToConfirmAppointment(int id)
+        {
+            var appointment = await _context.Appointments.FindAsync(id);
+
+            if (appointment == null)
+            {
+                throw new Exception($"Cannot find appointment with id = {id}");
+            }
+
+            var appointmentTime = appointment.AppointedTime;
+
+            var existingAppointments = await GetAllAppointmentByTimeAsync(appointmentTime);
+
+            int confirmedAppointmentId = -1;// .-.
+
+            foreach (var existingAppointment in existingAppointments)
+            {
+                if (existingAppointment.Confirmed)
+                {
+                    confirmedAppointmentId = existingAppointment.Id;
+                    break;
+                }
+            }
+
+            if (confirmedAppointmentId == -1)
+            {
+                appointment.Confirmed = true;
+
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            else
+            {
+
+                await _context.SaveChangesAsync();
+                return false;
+            }
+        }
         public async Task<List<AppointmentEntity>> GetAllAppointmentByTimeAsync(DateTime time)
         {
             var appointments = await _context.Appointments.
@@ -86,47 +130,7 @@ namespace DAL.Repositories
             }
 
             return appointment;
-        }
-
-        public async Task<bool> TryToConfirmAppointment(int id)
-        {
-            var appointment = await _context.Appointments.FindAsync(id);
-
-            if (appointment == null)
-            {
-                throw new Exception($"Cannot find appointment with id = {id}");
-            }
-
-            var appointmentTime = appointment.AppointedTime;
-
-            var existingAppointments = await GetAllAppointmentByTimeAsync(appointmentTime);
-
-            int confirmedAppointmentId = -1;// .-.
-
-            foreach(var existingAppointment in existingAppointments)
-            {
-                if (existingAppointment.Confirmed)
-                {
-                    confirmedAppointmentId = existingAppointment.Id;
-                    break;
-                }
-            }
-
-            if (confirmedAppointmentId == -1)
-            {
-                appointment.Confirmed = true;
-                appointment.UpdatedDate = DateTime.Now;
-
-                await _context.SaveChangesAsync();
-                return true;
-            }
-            else
-            {
-
-                await _context.SaveChangesAsync();
-                return false;              
-            }
-        }
+        }      
 
         public async Task UpdateAsync(int id, AppointmentEntity appointment)
         {
@@ -140,6 +144,18 @@ namespace DAL.Repositories
             ReflectionHelper.CopyObjectPropertiesWithoutSpecified(existingAppointment, appointment, "ID", "CreatedDate");
 
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<bool> isExceedingLimit(DateTime time)
+        {           
+            var existingAppointments = await GetAllAppointmentByTimeAsync(time);
+
+            if (existingAppointments.Count > 10)//Magic numbers, take it out into configuration.
+            {
+                return false;
+            }
+
+            return true;
         }
     }
 }
